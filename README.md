@@ -27,9 +27,9 @@ To get a local copy up and running follow these simple example steps:
    ```sh
    npm install
    ```
-3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+3. Go to src/components/Weather and add your OpenWeatherMap API key:
    ```plaintext
-   REACT_APP_API_KEY=your_api_key_here
+   #your_api_key = your_api_key_here
    ```
 4. Start the development server:
    ```sh
