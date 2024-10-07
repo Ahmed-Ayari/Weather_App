@@ -11,7 +11,7 @@ export default function Weather() {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=e9256fde35471966a0c0ded2d336a911&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=#your_api_key&units=metric`
       );
 
       const data = await response.json();
